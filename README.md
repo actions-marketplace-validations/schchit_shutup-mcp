@@ -2,6 +2,13 @@
 
 > Experimental MCP tool-list filtering proxy for large tool catalogs.
 
+## Scope
+
+This is an independent, general-purpose MCP experiment hosted in the HJS organization.
+It does not create or validate JEP events, TSTO objects, signatures or the JEP/TSTO
+binding. It is not a dependency or optional conformance requirement of that protocol
+path. For protocol work use the [JEP/TSTO integration directory](https://github.com/hjs-spec/.github/blob/main/PROJECTS.md#integrate).
+
 `shutup-mcp` sits between an MCP client and one or more MCP servers. It aggregates tool definitions and exposes only the top-k tools that match the current intent.
 
 This repository is an **alpha implementation seed**. It is useful for experimenting with tool-list compression, but it is not yet a full production MCP gateway.
